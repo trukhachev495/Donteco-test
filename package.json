@@ -1,0 +1,22 @@
+{
+  "name": "ui-auto-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier . --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^20.11.19",
+    "prettier": "^3.4.1"
+  },
+  "dependencies": {
+    "chance": "^1.1.12",
+    "dotenv": "^16.4.5",
+    "storage": "^0.2.0"
+  }
+}
